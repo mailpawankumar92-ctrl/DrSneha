@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.drsnehagoyal.com/sitemap.xml
+Sitemap: https://drsnehagoyal.com/sitemap.xml

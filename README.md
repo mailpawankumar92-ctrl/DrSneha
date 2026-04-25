@@ -1,44 +1,44 @@
 # drsnehagoyal.com
 
-Website for Dr. Sneha Goyal — Clinical Psychologist, Enable Workplace Consulting, Melbourne CBD.
+Static website for Dr. Sneha Goyal, Clinical Psychologist at Enable Workplace Consulting in Melbourne CBD.
 
-## Structure
+## Current Structure
 
-```
-index.html          ← Main site (homepage)
+```text
+index.html                         Home page
+about.html                         About Dr. Goyal
+services.html                      Services, process, fees and funding guidance
+adhd-assessment-melbourne.html     SEO landing page for ADHD assessment and ADHD psychologist Melbourne
+contact.html                       Booking, contact details and Google Maps embed
 blog/
-  index.html        ← Blog listing page
-  adhd-psychologist-melbourne.html
-  adult-adhd-diagnosis-melbourne.html
-  adhd-in-women-melbourne.html
-  anxiety-adhd-melbourne.html
-  depression-adhd-melbourne.html
-  panic-disorder-adhd-melbourne.html
-  trauma-adhd-melbourne.html
-  ocd-adhd-melbourne.html
-  emotion-regulation-adhd-melbourne.html
-  perfectionism-addiction-adhd-melbourne.html
-netlify.toml        ← Netlify config (headers, publish dir)
-_redirects          ← URL redirects (blog.html → blog/, pretty URLs)
-sitemap.xml         ← XML sitemap for Google Search Console
-robots.txt          ← Search engine crawl rules
+  index.html                       Resources listing and editorial plan
+  *.html                           Existing long-form ADHD and mental health articles
+assets/
+  css/site.css                     Shared mobile-first design system
+  js/site.js                       Mobile menu and delayed analytics loader
+  img/                             Responsive doctor image variants
+_redirects                         Netlify redirects
+sitemap.xml                        XML sitemap
+robots.txt                         Search engine crawl rules
 ```
 
 ## Deployment
 
 Connected to Netlify via GitHub. Every push to `main` triggers a deploy.
 
-**Netlify settings:**
-- Build command: *(none — static site)*
-- Publish directory: `.` (root)
-- Domain: www.drsnehagoyal.com
+Netlify settings:
 
-## After deploying
+- Build command: none - static site
+- Publish directory: `.` root
+- Canonical domain: `https://drsnehagoyal.com`
 
-1. Go to Google Search Console → submit `https://www.drsnehagoyal.com/sitemap.xml`
-2. Verify Google Analytics tag `G-12Q1JF38PZ` is firing (check GA4 real-time)
-3. Set `www.drsnehagoyal.com` as primary domain in Netlify → Domain settings
+## SEO Notes
 
-## Updating content
+- Primary conversion page: `/adhd-assessment-melbourne.html`
+- Priority local keywords: `ADHD psychologist Melbourne`, `ADHD assessment Melbourne`, `adult ADHD diagnosis Melbourne`, `ADHD therapy Melbourne`
+- Submit sitemap in Google Search Console: `https://drsnehagoyal.com/sitemap.xml`
+- The mobile experience uses system fonts, responsive local images and delayed analytics loading to improve PageSpeed.
+
+## Updating Content
 
 All content is in plain HTML files. Edit directly and push to `main`.
