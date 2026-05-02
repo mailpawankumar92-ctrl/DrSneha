@@ -26,5 +26,17 @@ http://drsnehagoyal.com/*        https://drsnehagoyal.com/:splat  301!
 /blog#adult-adhd                 /blog/adult-adhd-diagnosis-melbourne.html   301
 /blog#adhd-women                 /blog/adhd-in-women-melbourne.html          301
 
+# Extensionless blog URLs seen by search engines.
+/blog/adhd-psychologist-melbourne                 /blog/adhd-psychologist-melbourne.html                 301
+/blog/adult-adhd-diagnosis-melbourne              /blog/adult-adhd-diagnosis-melbourne.html              301
+/blog/adhd-in-women-melbourne                     /blog/adhd-in-women-melbourne.html                     301
+/blog/anxiety-adhd-melbourne                      /blog/anxiety-adhd-melbourne.html                      301
+/blog/depression-adhd-melbourne                   /blog/depression-adhd-melbourne.html                   301
+/blog/emotion-regulation-adhd-melbourne           /blog/emotion-regulation-adhd-melbourne.html           301
+/blog/ocd-adhd-melbourne                          /blog/ocd-adhd-melbourne.html                          301
+/blog/panic-disorder-adhd-melbourne               /blog/panic-disorder-adhd-melbourne.html               301
+/blog/perfectionism-addiction-adhd-melbourne      /blog/perfectionism-addiction-adhd-melbourne.html      301
+/blog/trauma-adhd-melbourne                       /blog/trauma-adhd-melbourne.html                       301
+
 # 404 fallback.
 /*                               /index.html                                 404
