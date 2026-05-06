@@ -32,25 +32,25 @@
 }</script>
 <style>
 /* ═══════════════════════════════
-   APPLE-INSPIRED PALETTE
-   Pure white · Forest green · Ink black
+   SITE PALETTE
+   Pure white · Warm gold · Ink
    Clean, high-contrast, accessible
 ═══════════════════════════════ */
 :root {
   --white:       #FFFFFF;
-  --off-white:   #F4FAF6;
-  --light-gray:  #E8F4EC;
-  --mid-gray:    #5A7A65;
-  --dark-gray:   #1E4D30;
-  --ink:         #0F2D1A;
-  --green:       #1A6E3C;
-  --green-mid:   #22944F;
-  --green-light: #D6EFDF;
-  --green-pale:  #EBF7EF;
-  --green-glow:  rgba(26,110,60,0.12);
+  --off-white:   #fffdf6;
+  --light-gray:  #f1dea0;
+  --mid-gray:    #617072;
+  --dark-gray:   #4a4334;
+  --ink:         #243235;
+  --green:       #a87500;
+  --green-mid:   #f6c84c;
+  --green-light: #f1dea0;
+  --green-pale:  #fffcf0;
+  --green-glow:  rgba(246,200,76,0.18);
   --black:       #000000;
-  --border:      #C3E0CC;
-  --border-dark: #1A6E3C;
+  --border:      #f1dea0;
+  --border-dark: #a87500;
   --crisis-red:  #C0392B;
   --crisis-bg:   #FDF0EF;
 
@@ -824,7 +824,7 @@ footer { padding: 2.5rem 5%; background: var(--white); border-top: 1px solid var
   display: flex;
   align-items: flex-start;
   gap: 0.85rem;
-  background: linear-gradient(135deg, var(--green-pale) 0%, #edf7f1 100%);
+  background: linear-gradient(135deg, var(--green-pale) 0%, #fff8dc 100%);
   border: 1.5px solid var(--green-light);
   border-radius: 12px;
   padding: 0.9rem 1.15rem;
@@ -931,7 +931,7 @@ footer { padding: 2.5rem 5%; background: var(--white); border-top: 1px solid var
 .article-breadcrumb span{margin:0 .4rem;opacity:.4}
 .article-category{display:inline-block;font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;background:var(--green);color:white;padding:.25rem .75rem;border-radius:100px;margin-bottom:1rem;font-weight:600}
 .article-h1{font-family:"Playfair Display",serif;font-size:clamp(1.8rem,4vw,2.8rem);line-height:1.15;color:var(--ink);max-width:760px;margin-bottom:1rem}
-.article-deck{font-size:1.05rem;line-height:1.7;color:#4a5a50;max-width:680px;margin-bottom:1.5rem}
+.article-deck{font-size:1.05rem;line-height:1.7;color:#617072;max-width:680px;margin-bottom:1.5rem}
 .article-meta{display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap}
 .article-meta-item{font-size:.72rem;color:var(--mid-gray);display:flex;align-items:center;gap:.3rem}
 .article-meta-item strong{color:var(--green);font-weight:500}
@@ -939,9 +939,9 @@ footer { padding: 2.5rem 5%; background: var(--white); border-top: 1px solid var
 .article-body{min-width:0}
 .article-body h2{font-family:"Playfair Display",serif;font-size:1.5rem;color:var(--ink);margin:2.5rem 0 .9rem;padding-top:.5rem;border-top:2px solid var(--green-light)}
 .article-body h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.8rem 0 .6rem}
-.article-body p{font-size:.93rem;line-height:1.82;color:#3a4a40;margin-bottom:1.1rem}
+.article-body p{font-size:.93rem;line-height:1.82;color:#4a4334;margin-bottom:1.1rem}
 .article-body ul,.article-body ol{margin:0 0 1.2rem 1.4rem}
-.article-body li{font-size:.93rem;line-height:1.75;color:#3a4a40;margin-bottom:.4rem}
+.article-body li{font-size:.93rem;line-height:1.75;color:#4a4334;margin-bottom:.4rem}
 .article-body strong{color:var(--ink);font-weight:600}
 .article-body a{color:var(--green)}
 .article-pullquote{border-left:3px solid var(--green);margin:2rem 0;padding:.8rem 1.4rem;background:var(--green-pale);border-radius:0 8px 8px 0}
@@ -956,7 +956,7 @@ footer { padding: 2.5rem 5%; background: var(--white); border-top: 1px solid var
 .faq-q{font-size:.95rem;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem;list-style:none;user-select:none}
 .faq-q::after{content:"＋";color:var(--green);font-size:1.1rem;flex-shrink:0;transition:transform .25s}
 .faq-item.open .faq-q::after{transform:rotate(45deg)}
-.faq-a{font-size:.88rem;line-height:1.78;color:#4a5a50;max-height:0;overflow:hidden;transition:max-height .35s ease,padding .3s}
+.faq-a{font-size:.88rem;line-height:1.78;color:#617072;max-height:0;overflow:hidden;transition:max-height .35s ease,padding .3s}
 .faq-item.open .faq-a{max-height:400px;padding-top:.7rem}
 .article-cta-box{background:var(--green);border-radius:16px;padding:2rem 2.2rem;margin:2.5rem 0;color:white}
 .article-cta-box h3{color:white;font-size:1.1rem;margin-bottom:.5rem}
